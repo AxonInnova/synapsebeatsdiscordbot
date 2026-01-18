@@ -1,7 +1,7 @@
 /**
- * TRINOX STUDIO - Bre4d777
+ * Axon Innova - Atharv
+ * https://dsc.gg/axoninnova
  * give credits or ill touch you in your dreams
- * LEAKED BY CODEX
  */
 import { Command } from '../../structures/Command.js';
 import { 

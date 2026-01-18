@@ -1,6 +1,6 @@
 /**
- * Muffin STUDIO - Bre4d777& prayag 
- * https://discord.gg/TRPqseUq32
+ * Axon Innova - Atharv
+ * https://dsc.gg/axoninnova
  * give credits or ill touch you in your dreams
  */
 import { BotClient } from './structures/BotClient.js';

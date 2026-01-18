@@ -1,7 +1,7 @@
 /**
- * TRINOX STUDIO - Bre4d777
+ * Axon Innova - Atharv
+ * https://dsc.gg/axoninnova
  * give credits or ill touch you in your dreams
- * LEAKED BY CODEX
  */
 import { Command } from '../../structures/Command.js';
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle } from 'discord.js';
@@ -36,19 +36,19 @@ class InviteCommand extends Command {
    try {
        const inviteButton = new ButtonBuilder()
 
-        .setLabel('Admin Perms')     .setURL('https://discord.com/oauth2/authorize?client_id=1131938711639183363&permissions=8&integration_type=0&scope=bot')
+        .setLabel('Invite Link')     .setURL('https://dsc.gg/axoninnova')
         .setStyle(ButtonStyle.Link);
        
 
-       const reqinvite = new ButtonBuilder()
+       const supportServer = new ButtonBuilder()
 
-        .setLabel('Required Perms')     .setURL('https://discord.com/oauth2/authorize?client_id=1131938711639183363&permissions=1162048502615121&integration_type=0&scope=bot')
+        .setLabel('Support Server')     .setURL('https://dsc.gg/axoninnova')
 
         .setStyle(ButtonStyle.Link);
 
-      const row = new ActionRowBuilder().addComponents(inviteButton, reqinvite);
+      const row = new ActionRowBuilder().addComponents(inviteButton, supportServer);
    
-      await message.reply({ content: `[Invite Avon](https://discord.com/discovery/applications/1131938711639183363)`, components: [row] });
+      await message.reply({ content: `[Invite Axon Innova](https://dsc.gg/axoninnova)`, components: [row] });
        } catch (error) {
       logger.error('InviteCommand', 'Error executing invite command', error);
      }      
